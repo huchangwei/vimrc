@@ -47,7 +47,7 @@
 set history=500
 
 "set  number
-set number
+set nu
 
 " Enable filetype plugins
 filetype plugin on
