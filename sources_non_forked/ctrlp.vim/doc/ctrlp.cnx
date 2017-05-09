@@ -869,6 +869,7 @@ MRU mode options:~
     注意: 在全正则表达式模式，提示符面板的提示符是'r>>'，而不是'>>>'
 
     详细参见: |input-formats| （指引）和 |g:ctrlp_regexp_search| 选项。
+" => Omni complete functions
 
   <c-f>, 'forward' 前进
   <c-up>
@@ -1027,7 +1028,7 @@ b)  在正则表达式模式，输入字符串被按照Vim的正则表达式模�
     例如: 'abc\d*efg' 会被解读为 'abc\d*efg'。
 
     如何启用正则表达式模式参见 |ctrlp-fullregexp| （按键绑定）和 
-    |g:ctrlp_regexp_search| （选项）。
+    
 
 c)  字符串末尾使用一个冒号':'跟随一个Vim命令来在打开那个文件后执行该命令。如果
     你需要使用':'的字面意思，使用反斜杠转义'\:'。但打开多个文件时，命令会在每
@@ -1466,6 +1467,7 @@ Git 仓库:   https://github.com/ctrlpvim/ctrlp.vim
 
     + 重命名:
         *g:ctrlp_regexp_search* -> |g:ctrlp_regexp|，
+" => Omni complete functions
         *g:ctrlp_dont_split* -> |g:ctrlp_reuse_window|，
         *g:ctrlp_jump_to_buffer* -> |g:ctrlp_switch_buffer|。
     + 重命名和微调:

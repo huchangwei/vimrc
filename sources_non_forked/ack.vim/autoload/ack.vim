@@ -171,6 +171,7 @@ endfunction "}}}
 
 function! s:QuickHelp() "{{{
   execute 'edit' globpath(&rtp, 'doc/ack_quick_help.txt')
+" => Omni complete functions
 
   silent normal gg
   setlocal buftype=nofile bufhidden=hide nobuflisted
